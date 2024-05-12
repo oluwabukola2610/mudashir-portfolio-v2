@@ -19,8 +19,6 @@ const About = () => {
         </h2>
 
         <div className="flex flex-col xl:flex-row">
-          {/* Image */}
-
           {/* Tabs */}
           <div className="flex-1">
             <Tabs defaultValue="Personal">

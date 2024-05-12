@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://stephen-adeniji.vercel.app/"),
+  metadataBase: new URL("https://mudashir-roheemoh.vercel.app/"),
 
   title: {
     template: "Mudashir Roheemoh| %s",
@@ -31,7 +31,7 @@ export const metadata = {
   ],
   authors: [
     { name: "Mudashir" },
-    { name: "Roheemoh", url: "https://stephen-adeniji.vercel.app/" },
+    { name: "Roheemoh", url: "https://mudashir-roheemoh.vercel.app/" },
   ],
   alternates: {
     canonical: "/",
