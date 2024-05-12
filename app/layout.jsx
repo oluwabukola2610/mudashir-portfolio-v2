@@ -51,16 +51,16 @@ export default function RootLayout({ children }) {
       <Head>
         <meta
           name="google-site-verification"
-          content="-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU"
+          content="K5Ps2Gi-DdTPMs4js_p7qNkIgDR9OHAV7-TnHMpV7RU"
         />
       </Head>
       <body className={outfit.className}>
-          <div className="mx-auto max-w-screen-xl flex flex-col justify-center">
-            <div className="grid grid-cols-1  md:grid-cols-[45%50%] gap-8 justify-center">
-              <Hero />
-              {children}{" "}
-            </div>
+        <div className="mx-auto max-w-screen-xl flex flex-col justify-center">
+          <div className="grid grid-cols-1  md:grid-cols-[45%50%] gap-8 justify-center">
+            <Hero />
+            {children}{" "}
           </div>
+        </div>
       </body>
     </html>
   );
