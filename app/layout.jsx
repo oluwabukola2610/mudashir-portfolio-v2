@@ -14,7 +14,7 @@ export const metadata = {
   },
   description: `Mudashir Roheemoh's Portfolio Website`,
   verification: {
-    google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
+    google: "-K5Ps2Gi-DdTPMs4js_p7qNkIgDR9OHAV7-TnHMpV7RU",
   },
   referrer: "origin-when-cross-origin",
   keywords: [
