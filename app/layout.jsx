@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={outfit.className}>
         <div className="mx-auto max-w-screen-xl flex flex-col justify-center">
-          <div className="grid grid-cols-1  md:grid-cols-[45%50%] gap-8 justify-center">
+          <div className="grid grid-cols-1  md:grid-cols-[45%50%] gap-8">
             <Hero />
             {children}{" "}
           </div>

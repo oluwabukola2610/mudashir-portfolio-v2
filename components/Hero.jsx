@@ -19,9 +19,8 @@ const Hero = () => {
   return (
     <section className="py-12  md:h-screen flex flex-col space-y-5  justify-center ">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
-          {/* Text */}
-          <div className="flex flex-col justify-center mx-auto xl:mx-0 ">
+     
+          <div className="flex flex-col justify-center px-2">
             <div className="space-y-3 flex flex-col items-center md:items-start">
               <h3 className="text-lg font-semibold text-[#3a8f9e]">
                 Hi, my name is
@@ -32,7 +31,7 @@ const Hero = () => {
               <h2 className="text-xl font-medium text-[#c4d1e6]">
                 Frontend Web Developer
               </h2>
-              <p className="text-[#7587a8] text-lg">
+              <p className="text-[#7587a8] text-lg text-center md:text-left">
                 As a dedicated front-end developer, I specialize in creating
                 user-friendly web interfaces and exceptional digital
                 experiences. With a keen eye for design and a love for coding, I
@@ -67,7 +66,6 @@ const Hero = () => {
             />
           </div>
         </div>
-      </div>
     </section>
   );
 };

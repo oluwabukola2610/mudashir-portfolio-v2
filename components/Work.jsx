@@ -19,7 +19,7 @@ const Work = () => {
     <section className="py-2">
      
       {/* Slider */}
-      <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
+      <div className="xl:max-w-[1000px] ">
         <Swiper
           className="xl:h-[480px]"
           slidesPerView={1}
