@@ -18,7 +18,7 @@ const About = () => {
           About Me
         </h2>
 
-        <div className="flex flex-col xl:flex-row">
+        <div className="flex flex-col ">
           {/* Tabs */}
           <div className="flex-1">
             <Tabs defaultValue="Personal">
