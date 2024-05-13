@@ -3,9 +3,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 import Work from "./Work";
 
-
-
-
 const About = () => {
   const getData = (arr, title) => {
     return arr.find((item) => item.title === title);
@@ -39,23 +36,23 @@ const About = () => {
                 <TabsContent value="Personal">
                   <div className="space-y-2">
                     <p className="text-[#b0bed9] max-w-xl mx-auto xl:mx-0">
-                      Ever since I tapped into the boundless world of web
-                      development, I've been hooked on creating immersive online
-                      experiences that captivate and inspire. With a passion for
-                      pixel perfection and an insatiable curiosity for all
-                      things tech, I thrive on turning ideas into interactive
-                      realities.
+                      Ever since I discovered the vast world of web development,
+                      I have been captivated by the idea of creating immersive
+                      online experiences that inspire and engage users. With a
+                      strong passion for pixel-perfect designs and an insatiable
+                      curiosity for all things tech, I thrive on transforming
+                      ideas into interactive realities.
                     </p>
                     <p className="text-[#b0bed9] max-w-xl mx-auto xl:mx-0">
                       <span className="text-[#e6f0ff] font-medium">
                         {" "}
                         But what truly sets me apart?
                       </span>{" "}
-                      It's not just about the code, I'm here to craft
-                      experiences that leave a lasting impact. Whether it's
-                      through sleek designs, intuitive interfaces, or seamless
-                      functionalities, I'm committed to elevating every project
-                      to its fullest potential.
+                      It's not just about the code, I create impactful
+                      experiences through sleek designs, intuitive interfaces,
+                      and seamless functionalities. With my commitment to
+                      excellence, I can help you achieve your goals and deliver
+                      a product that exceeds your expectations.
                     </p>
                     <p className="text-[#b0bed9] max-w-xl mx-auto xl:mx-0">
                       In my free time I like to read📖, research about emerging
