@@ -33,7 +33,7 @@ export const projectData2 = [
     name: "SwiftVia Landing Page",
     description:
       "Technologies: Next.js ,AntDesign ,Framer Motion, SEO, & Tailwind CSS",
-    link: "https://swiftvia.com/",
+    link: "https://swiftvianextjs.vercel.app/",
   },
   {
     image:
