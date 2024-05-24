@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="container mx-auto">
-        <div className="grid  pt-8">
+        <div className="grid  pt-10">
           <div className="flex flex-col justify-center">
             <h2 className="section-title  mb-8 xl:mb-16 text-center ">
               Let's work together!{" "}

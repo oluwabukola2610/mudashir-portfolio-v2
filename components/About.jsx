@@ -9,7 +9,7 @@ const About = () => {
   };
 
   return (
-    <section className=" flex flex-col space-y-3   ">
+    <section className=" flex flex-col space-y-3   p-4">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About Me

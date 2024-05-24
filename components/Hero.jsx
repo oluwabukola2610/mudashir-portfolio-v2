@@ -48,8 +48,8 @@ const Hero = () => {
               Contact Me <Send size={18} />
             </Button>
             <a
-              href="/assets/ROHEEMOH-frontend.pdf"
-              download="Stephen Adeniji Resume.pdf"
+              href="/assets/ROHEEMOH-frontend1.pdf"
+              download="mudashir roheemoh Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
