@@ -6,7 +6,7 @@ export const projectData2 = [
     name: "Purf Finance Business",
     description:
       "Technologies: Next.js, Typescript ,Tailwind CSS, Ant Design, Redux ,DaisyUI",
-    link: "https://pursfinance.com/",
+    link: "https://pursfinance.com",
   },
   {
     image:
@@ -42,5 +42,13 @@ export const projectData2 = [
     name: "Geegpay Analytics Dashboard",
     description: "Technologies: Next.js, Tailwind CSS, and React Chart-js",
     link: "https://gee-pay.vercel.app/",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/drgmdou69/image/upload/v1720076691/iPhone-12-PRO-merchant.pursfinance.com_ipzoxt.png",
+    category: "next.js",
+    name: "Open Api Dashboard",
+    description: "Technologies: Next.js, Tailwind CSS, MUI and React Chart-js ",
+    link: "https://merchant.pursfinance.com",
   },
 ];

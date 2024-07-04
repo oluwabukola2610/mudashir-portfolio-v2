@@ -31,11 +31,11 @@ const Hero = () => {
               Frontend Web Developer
             </h2>
             <p className="text-[#7587a8] text-lg text-center md:text-left">
-              As a dedicated front-end developer, my expertise lies in crafting
-              intuitive web interfaces and delivering outstanding digital
-              experiences. I possess a strong eye for design and a passion for
-              coding, which enables me to infuse creativity and accuracy in
-              every project I undertake.
+              Being a skilled front-end developer, I excel in creating
+              user-friendly web interfaces and delivering exceptional digital
+              experiences. With a keen sense of design and a love for coding, I
+              bring a blend of creativity and precision to every project I take
+              on.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ const Hero = () => {
               Contact Me <Send size={18} />
             </Button>
             <a
-              href="/assets/ROHEEMOH-frontend1.pdf"
+              href="/assets/resume-MUDASHIR.pdf"
               download="mudashir roheemoh Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
