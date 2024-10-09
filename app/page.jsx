@@ -1,11 +1,17 @@
+import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Contact from "@/components/contact/Contact";
+import Services from "@/components/ui/Services";
+import Work from "@/components/Work";
+import Cta from "@/components/Cta";
 
 export default function Home() {
   return (
-    <section className="md:overflow-y-auto md:h-screen pt-[6rem] pb-[3rem]   p-2">
+    <main>
+      <Hero />
       <About />
-      <Contact />
-    </section>
+      <Services />
+      <Work />
+      <Cta />
+    </main>
   );
 }

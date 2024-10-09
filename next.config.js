@@ -9,7 +9,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "stephen-adeniji.netlify.app",
+        hostname: "mudashir-roheemoh.vercel.app",
         port: "",
         pathname: "/images/**",
       },

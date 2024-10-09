@@ -13,6 +13,12 @@ const Form = () => {
       className="flex flex-col gap-y-4"
     >
       <input type="hidden" name="_subject" value="New submission!" />
+      <input type="hidden" name="_template" value="table" />
+      <input
+        type="hidden"
+        name="_autoresponse"
+        value="Hello, Thank you for contacting me. I've received your message and will be in touch shortly. In the meantime, feel free to explore my portfolio to see my latest work. Best regards, Roheemoh"
+      />
 
       <div className="relative flex items-center">
         <Input type="text" name="Name" id="name" placeholder="Name" required />

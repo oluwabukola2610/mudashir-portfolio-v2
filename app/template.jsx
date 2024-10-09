@@ -1,6 +1,7 @@
 "use client";
-
+import useScrollProgress from "@/hooks/useScrollProgress";
 import { motion } from "framer-motion";
+
 const variants = {
   hidden: { opacity: 0 },
   enter: { opacity: 1 },
@@ -18,8 +19,6 @@ const Template = ({ children }) => {
       >
         {children}
       </motion.main>
-
-    
     </>
   );
 };

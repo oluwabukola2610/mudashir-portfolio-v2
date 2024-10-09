@@ -1,7 +1,10 @@
 import { Outfit } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
-import Hero from "@/components/Hero";
+import Header from "@/components/Header";
+import { ProgressBarProvider, ThemeProvider } from "@/components/Providers";
+import BackToTopButton from "@/components/BackToTopButton";
+import Footer from "@/components/Footer";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -42,6 +45,10 @@ export const metadata = {
   },
   openGraph: {
     images: "/opengraph-image.jpg",
+    title: "Mudashir Roheemoh | Developer Extraordinaire",
+
+    description:
+      "Welcome to my digital hub! Explore my projects, journey, and passion for turning ideas into reality with code.",
   },
 };
 
@@ -55,12 +62,14 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body className={outfit.className}>
-        <div className="mx-auto max-w-screen-xl flex flex-col justify-center">
-          <div className="grid grid-cols-1  md:grid-cols-[45%50%] gap-8">
-            <Hero />
-            {children}{" "}
-          </div>
-        </div>
+        <ThemeProvider attribute="class" defaultTheme="system">
+          <ProgressBarProvider>
+            <Header />
+            {children}
+            <BackToTopButton />
+            <Footer />
+          </ProgressBarProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
