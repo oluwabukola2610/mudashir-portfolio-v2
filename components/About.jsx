@@ -25,7 +25,7 @@ const qualificationData = [
       },
       {
         school: "Lagos State University, Lagos",
-        qualification: "S.S.C.E",
+        qualification: "BSC",
         years: "2017 - 2022",
       },
     ],
