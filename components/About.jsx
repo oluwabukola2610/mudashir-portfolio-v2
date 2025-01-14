@@ -34,9 +34,14 @@ const qualificationData = [
     title: "Experience",
     data: [
       {
+        company: "Cosonas Limited",
+        role: "Mid-Level Frontend Developer",
+        years: "Aug 2024 - Present",
+      },,
+      {
         company: "Loger Limited",
         role: "Frontend Developer",
-        years: "July 2024 - Present",
+        years: "April 2024 - Present",
       },
       {
         company: "Purscliq Limited",

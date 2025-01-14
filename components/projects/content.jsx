@@ -1,13 +1,14 @@
 export const projectData2 = [
   {
     image:
-      "https://res.cloudinary.com/drgmdou69/image/upload/v1715522820/iPhone-12-PRO-pursfinance.com_ztc3sg.png",
+      "https://res.cloudinary.com/drgmdou69/image/upload/v1736871160/iPhone-12-PRO-loger.africa_ldwdya.png",
     category: "next.js",
-    name: "Purf Finance Business",
+    name: "Loger App",
     description:
-      "Technologies: Next.js, Typescript ,Tailwind CSS, Ant Design, Redux ,DaisyUI",
-    link: "https://pursfinance.com",
+      "Technologies: Next.js ,AntDesign ,Framer Motion, SEO, & Tailwind CSS",
+    link: "https://loger.africa",
   },
+
   {
     image:
       "https://res.cloudinary.com/drgmdou69/image/upload/v1715519796/iPhone-12-PRO-www.swiftvia.com_xghmhs.png",
@@ -42,14 +43,7 @@ export const projectData2 = [
     description: "Technologies: React Native, Tailwind CSS, Map ",
     link: "https://expo.dev/preview/update?message=fix&updateRuntimeVersion=1.0.0&createdAt=2024-09-02T16%3A44%3A29.271Z&slug=exp&projectId=bb0c87c7-f0fe-4415-ba91-34c8a00ee8ec&group=2abf29d8-c468-4998-beea-094d246c8043",
   },
-  {
-    image:
-      "https://res.cloudinary.com/drgmdou69/image/upload/v1728513645/WhatsApp_Image_2024-10-09_at_11.34.40_PM_kukwy8.jpg",
-    category: "react native",
-    name: "Pursfi POS App",
-    description: "Technologies: React Native, Tailwind CSS, Chart-js ",
-    link: "https://expo.dev/preview/update?message=fix&updateRuntimeVersion=1.0.0&createdAt=2024-08-30T09%3A25%3A46.375Z&slug=exp&projectId=26e2f293-9029-4a5e-9fbe-3e1c73134149&group=6bd49711-7404-452b-a1a6-eb8194907408",
-  },
+
   {
     image:
       "https://res.cloudinary.com/drgmdou69/image/upload/v1715520015/iPhone-12-PRO-brainwave-app-14.vercel.app_ufwudy.png",
